@@ -1,0 +1,15 @@
+<div id="main_wrapper">
+  <h1>Task App</h1>
+  <div id="input_wrapper"> 
+    <h3>Task name</h3>
+    <input class="form-control" ng-model="contact.name"><br>
+    <h3>Description</h3>
+    <input class="form-control" ng-model="contact.descriptions"><br>
+    <h3>Deadline</h3>
+    <input  type="date" class="form-control" ng-model="contact.deadline"><br>
+    <button class="btn btn-primary" ng-click="addContact(); click()">Add Task
+    </button>
+    <a href="db.html"><button class="btn btn-primary">View All</button></a>
+    <br><br><p id="all_text" class="none"> {{title}} </p>
+  </div>
+</div>  

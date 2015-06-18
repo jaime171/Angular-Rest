@@ -1,0 +1,73 @@
+body{
+	background: url(/img/fondo.png);
+}
+
+input[type=date]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	display: none;
+}
+h1{
+	text-align: center;
+	background: #323A45;
+	height: 100px;
+	width: 500px;
+	left: 50%;
+	margin-left: -250px;
+	margin-top: -100px;
+	color: white;
+	vertical-align: middle;
+	line-height: 100px;
+	position: absolute;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	box-shadow: 3px 3px 20px black;
+	z-index: -1;
+}
+
+#main_wrapper{
+	height: 500px;
+	width: 500px;
+	background: white;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	position: absolute;
+	text-align: center;
+	left: 50%;
+	top: 50%;
+	margin-left: -250px;
+	margin-top: -200px;
+	box-shadow: 3px 3px 20px black;
+}
+	#main_wrapper input{
+		width: 300px;
+		height: 50px;
+		margin-left: 100px;
+	}	
+
+#second_wrapper{
+	background: #323A45;
+	position: relative;
+	color: white;
+	top: 200px;
+}
+
+#second_wrapper button{
+	float: right !important;
+	margin-right: 2em;
+}
+
+label{
+	font-size: 20px;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+.none{
+	display: none;
+}
+
+
+#task_button{
+	position: absolute;
+	top: 80px;
+}

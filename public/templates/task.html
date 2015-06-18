@@ -1,0 +1,8 @@
+<a id="task_button" href="index.html"><button class="btn btn-primary">Add Another Task</button></a>
+<div id="second_wrapper" ng-repeat="task in contactlist">
+    <label for="">Task Name:</label>&nbsp;{{task.name}}<br>
+	<label for="">Description:</label>&nbsp;{{task.descriptions }}<br>
+	<label for="">Deadline:</label>&nbsp;{{task.deadline | date}}  
+    <button class="btn btn-danger" ng-click="remove(task._id)">Remove</button><hr>
+</div>
+
